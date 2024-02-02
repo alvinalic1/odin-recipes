@@ -34,6 +34,11 @@ body{
 }
 
 .unordered{
+    list-style-position: inside;
+    text-align: center;
+    padding: 50px;
+    border: 50px solid blue;
+    margin: 60px;
     color: blue;
     background-color: orange;
     font-family: American Typewriter, serif;
@@ -50,6 +55,37 @@ p{
 
 }
 
+.one, .three{
+    border: 5px dotted pink;
+    padding: 5px;
+
+}
+
+.one{
+    margin-bottom: 5px;
+}
+
+.three{
+    margin-top: 5px;
+}
+
+.two{
+   
+    border: 5px dotted pink;
+    /* padding: 5px; */
+    border-bottom: 0px;
+    border-top: 0px;
+    
+    
+    /* margin: 5px;
+    border-right: 5px dotted pink;
+    border-left: 5px dotted pink;  */
+    
+}
+
+.three{
+    padding-left: 53px;
+}
 
 
 /* .one{
